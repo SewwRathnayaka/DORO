@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-electron
+release
+.vite
+.DS_Store
+*.local
+
+# Electron build artifacts
+*.exe
+*.asar
+*-unpacked/
+*.blockmap
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables (never commit secrets)
+.env
+.env.local
+.env.production
+.env.development
+.env.*.local
+
+# Build outputs
+build
+# (build/ is also used by electron-builder for win icon; icon is copied from assets/ by scripts/copy-build-icon.js)
+*.tsbuildinfo
+
+# OS / editor cruft
+Thumbs.db
+Desktop.ini
+
+# Optional: additional IDE project files
+.idea/
