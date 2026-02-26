@@ -49,22 +49,10 @@ This will:
 - start Vite on `http://localhost:5173`
 - start Electron and load that URL in a desktop window
 
-### Build for production
-
-```bash
-# Build web bundle to dist/
-npm run build
-
-# Build Windows installer (Electron)
-npm run electron:build
-```
-
-The Windows installer (e.g. `doro Setup 1.0.0.exe`) will be written into `dist/`.  
-You can share that `.exe` or upload it to a GitHub Release for others to install.
 
 ## How users install the desktop app
 
-1. Download the latest `doro Setup <version>.exe` (for example from a GitHub Release).
+1. Download the latest `doro Setup <version>.exe`.
 2. Double‑click the installer and follow the steps.
 3. Launch **Doro** from the Start Menu (and/or desktop shortcut, depending on NSIS options).
 
@@ -113,12 +101,6 @@ DORO/
 - **Monetization via “locked” flowers** – some premium flower types unlocked via purchase or achievements.
 - **Richer analytics**: deeper statistics and visual insights (e.g. more detailed heatmaps to understand focus patterns over time).
 
-## Development Status
-
-- Core timer, bouquet, progress, settings, audio and Electron wrapper are implemented and working.
-- See:
-  - [`PROJECT_PLAN.md`](./PROJECT_PLAN.md) for the original design and phases.
-  - [`PROGRESS.md`](./PROGRESS.md) for a detailed history of what’s been built and adjusted.
 
 ## TypeScript Notes
 
